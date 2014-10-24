@@ -36,7 +36,7 @@ local remove = table.remove
 -- Modules --
 local labels = require("graph_ops.labels")
 local mincut = require("graph_ops.mincut")
-local ring_buffer = require("array_ops.ring_buffer")
+local ring_buffer = require("tektite_core.array.ring_buffer")
 
 -- Exports --
 local M = {}
